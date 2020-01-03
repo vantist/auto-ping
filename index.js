@@ -11,7 +11,7 @@ const config = {
 const app = express();
 
 app.get('/ping', (req, res) => {
-  res.status(200).end();
+  res.send('done').status(200).end();
 });
 
 // listen on port
