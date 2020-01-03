@@ -21,7 +21,7 @@ app.listen(port, () => {
   console.log(`listening on ${port}`);
 });
 
-cron.schedule('0 10 * * * *', () => {
+cron.schedule('0 */10 * * * *', () => {
   console.log(`auto ping to ${config.pingServer}`);
   request.get(config.pingServer, {}, (err, response) => {
     console.log(`auto ping to ${config.pingServer} done`);
