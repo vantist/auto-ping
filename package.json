@@ -9,13 +9,14 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vantist/auto-ping.git"
   },
-  "author": "",
+  "author": "Vantist Lin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vantist/auto-ping/issues"
