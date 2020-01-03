@@ -2,7 +2,7 @@
 
 const express = require('express');
 const request = require('request');
-const cron = require('cron');
+const cron = require('node-cron');
 
 // create LINE SDK config from env variables
 const config = {
